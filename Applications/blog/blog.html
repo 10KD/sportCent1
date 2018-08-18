@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>nCent Labs</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon"
+      type="image/png"
+      href="../landingPage/img/logo.png">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/pace.min.js"></script>
+<script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      -73}, 700);
+      });
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        var $nava = $("nav a");
+        $nava.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        
+      });
+    });
+
+</script>
+
+
+
+</head>
+
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <img src ="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944833/blog%20page/logo1.png">
+
+
+            <div class="header__content row">
+
+
+                </div>  
+
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
+
+                    <ul class="header__nav">
+                        <li class="current"><a href="index.html" title="">Home</a></li>
+
+
+                        <li><a href="#medium" title="">Medium</a></li>
+                        <li><a href="#twitter" title="">Twitter</a></li>
+                        <li><a href="#footer" title="">Contact</a></li>
+                        <li><a href="https://t.me/ncent" title="">Join our Telegram</a></li>
+
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+
+        <div class="pageheader-content row" id= "medium">
+            <div class="col-full">
+
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div id = "latestimage" class="entry" style="">
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="https://medium.com/@kk_ncnt/latest">Latest</a></span>
+
+                                <h1><a id = "latestheader" href="" title="">
+                                </a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/kk.png" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="https://medium.com/@kk_ncnt">KK Jain</a></li>
+                                        <li id = "latestdate">July 24, 2018</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+
+                        </div> <!-- end entry -->
+                    </div> <!-- end featured__big -->
+
+                    <div class="featured__column featured__column--small">
+
+                        <div class="entry" style="background-image:url('images/popular.jpg');">
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="https://medium.com/@kk_ncnt/a-fathers-prayer-for-his-daughter-7d8d5579a2c3">Popular</a></span>
+
+                                <h1><a href="https://medium.com/@kk_ncnt/a-fathers-prayer-for-his-daughter-7d8d5579a2c3" title="">A Founder’s Prayer for his Protocol</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/kk.png" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="https://medium.com/@kk_ncnt">KK Jain</a></li>
+                                        <li>June 25, 2018</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+
+                        </div> <!-- end entry -->
+
+                        <div class="entry" style="background-image:url('images/balloons.jpg');">
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="https://medium.com/@kk_ncnt/10-lessons-i-learned-from-10-red-balloons-da844906dc57">Popular</a></span>
+
+                                <h1><a href="https://medium.com/@kk_ncnt/10-lessons-i-learned-from-10-red-balloons-da844906dc57" title="">10 Lessons I Learned from 10 Red Balloons</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/kk.png" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">KK Jain</a></li>
+                                        <li>June 28, 2018</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+
+                        </div> <!-- end entry -->
+
+                    </div> <!-- end featured__small -->
+                </div> <!-- end featured -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end pageheader-content row -->
+
+    </section> <!-- end s-pageheader -->
+
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content">
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="grid-sizer"></div>
+                
+                <article id = "article1tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        <a id = "article1piclink" href="" >
+                            <img id = "article1pic" src=""
+                                     alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article1date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article1header" class="entry__title"></h1></a>
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article1link" href= "">
+                            <p>
+                                 KK Jain<br>
+                                <div id = "article1cont"></div>
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id= "article1tags" ></div>
+                    
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+                <article id = "article2tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article2piclink" href="" >
+                            <img id = "article2pic" src=""
+                                     alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article2date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article2header" class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article2link" href= "">
+                                <p>
+                                 KK Jain<br>
+                                <div id = "article2cont"></div>
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id = "article2tags"></div>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+                <article id = "article3tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article3piclink" href="" >
+                            <img id = "article3pic" src=""
+                                     alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article3date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article3header"class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article3link" href= ""><p>
+                                 KK Jain<br>
+                                <div id = "article3cont"></div>
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id = "article3tags"></div>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+                <article id = "article4tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article4piclink" href="" >
+                            <img id = "article4pic" src=""
+                                     alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article4date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article4header"class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article4link" href= "">
+                            <p>
+                                 KK Jain<br>
+                                <div id = "article4cont"></div>
+                            </p></a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+
+                                <div id = "article4tags"></div>
+
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+                <article id = "article5tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article5piclink" href="" >
+                            <img id = "article5pic" src=""
+                                     alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article5date" href=""></a>
+                            </div>
+                            <h1 class="entry__title"><a id = "article5header" href=""></a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article5link" href= "">
+                            <p>
+                                 KK Jain<br>
+                                <div id = "article5cont"></div>
+                            </p></a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+
+                                <div id = "article5tags"></div>
+
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+                <article id = "article6tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article6piclink" href="" >
+                            <img id = "article6pic" src=""
+                                     alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article6date" href=""></a>
+                            </div>
+                            <a  href=""><h1 id = "article6header"class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article6link" href= "">
+                            <p>
+                                 KK Jain<br>
+                                <div id = "article6cont"></div>
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+
+                                <div id = "article6tags"></div>
+
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article id = "article7tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        <a id = "article1piclink" href="" >
+                            
+                        
+                            <img id = "article7pic" src="https://cdn-images-1.medium.com/max/1024/1*yDd_8GfghBizIXZpf9Y-2Q.jpeg"
+                                    alt="" href =""></a>
+                        
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article7date" href=""></a>
+                            </div>
+                            <a  href=""><h1 id = "article7header" class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article7link" href= ""><p>
+                                 KK Jain<br>
+                                <div id = "article7cont"></div>
+                        </div></a>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id = "article7tags"></div>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+
+                <article id = "article8tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article8piclink" href="" >
+                            <img id = "article8pic" src=""
+                                     alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article8date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article8header" class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article8link" href= "">
+                            <p>
+                                KK Jain<br>
+                                <div id = "article8cont"></div>
+                            </p></a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id = "article8tags"></div>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article id = "article9tile" class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                        
+                            <a id = "article9piclink" href="" >
+                            <img id = "article9pic" src=""
+                                     alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a id = "article9date" href=""></a>
+                            </div>
+                            <a href=""><h1 id = "article9header" class="entry__title"></h1></a>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <a id = "article9link" href= "">
+                            <p>
+                                 KK Jain<br>
+                                <div id = "article9cont"></div>
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <div id = "article9tags"></div>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                            <a href="https://medium.com/@kk_ncnt/ncent-presents-summer-of-incentive-hacking-reading-list-423e961c2e8a">
+                            <img src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/reading.jpg"
+                                    srcset="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/reading.jpg 1x, https://res.cloudinary.com/dxwddglzt/image/upload/v1531944749/blog%20page/reading.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a href="https://medium.com/@kk_ncnt/ncent-presents-summer-of-incentive-hacking-reading-list-423e961c2e8a">July 3, 2018</a>
+                            </div>
+                            <h1 class="entry__title"><a href="https://medium.com/@kk_ncnt/ncent-presents-summer-of-incentive-hacking-reading-list-423e961c2e8a">nCent Presents: Summer of Incentive Hacking Reading List</a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                                <a href="https://medium.com/@kk_ncnt/ncent-presents-summer-of-incentive-hacking-reading-list-423e961c2e8a" style="color:#656565">
+                            <p>
+                                KK Jain<br><br>
+                                We at nCent Labs think a great deal about incentives, incentive design, and incentive markets. We invite you to share some of our mindshare — and join our summer incentive hacking reading list...
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="https://medium.com/tag/bitcoin">Bitcoin</a>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+
+                <article class="masonry__brick entry format-gallery">
+
+                    <div class="entry__thumb slider">
+                        <div class="slider__slides">
+                            <div class="slider__slide">
+                                    <a href="https://medium.com/@kk_ncnt/doing-gods-work-bfa95702ab61">
+                                <img src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944751/blog%20page/god.jpg"
+                                        srcset="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944751/blog%20page/god.jpg 1x, https://res.cloudinary.com/dxwddglzt/image/upload/v1531944751/blog%20page/god.jpg 2x" alt="">
+                                        </a>
+                                </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a href="single-gallery.html">July 12, 2018</a>
+                            </div>
+                            <h1 class="entry__title"><a href="https://medium.com/@kk_ncnt/doing-gods-work-bfa95702ab61">Doing God's Work</a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                                <a href="https://medium.com/@kk_ncnt/doing-gods-work-bfa95702ab61" style="color:#656565">
+                            <p>
+                                KK Jain<br><br>
+                                This tweet was a bit tongue in cheek. The CEO of Goldman Sachs made his (in)famous reference to God’s work- which became a caricature of Wall Street. But when I had the opportunity to reflect on where we are headed at nCent Labs, it really drove home one of our organizing values: cobuilding a movement that values everyone’s unique...
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="https://medium.com/tag/entrepreneurship">Entrepreneurship</a>
+                                <a href="https://medium.com/tag/blockchain">Blockchain</a>
+                                <a href="https://medium.com/tag/community">Community</a>
+                                <a href="https://medium.com/tag/social-network">Social Network</a>
+                                <a href="https://medium.com/tag/wall-street">Wall Street</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+
+                <article class="masonry__brick entry format-standard">
+
+                    <div class="entry__thumb">
+                            <a href="https://medium.com/@kk_ncnt/what-i-learned-from-10k-telegrammers-in-10-days-9cd35926f75d">
+                            <img src="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944755/blog%20page/popcorn.jpg"
+                                    srcset="https://res.cloudinary.com/dxwddglzt/image/upload/v1531944755/blog%20page/popcorn.jpg 1x, https://res.cloudinary.com/dxwddglzt/image/upload/v1531944755/blog%20page/popcorn.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a href="https://medium.com/@kk_ncnt/what-i-learned-from-10k-telegrammers-in-10-days-9cd35926f75d">July 11, 2018</a>
+                            </div>
+                            <h1 class="entry__title"><a href="https://medium.com/@kk_ncnt/what-i-learned-from-10k-telegrammers-in-10-days-9cd35926f75d">What I Learned from 10K Telegrammers in 10 days</a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                                <a href="https://medium.com/@kk_ncnt/what-i-learned-from-10k-telegrammers-in-10-days-9cd35926f75d" style="color:#656565">
+                            <p>
+                                KK Jain<br><br>
+                                July 11th, 2018… This date has special meaning for me and many in our community. Ten short days ago, we embarked on a blockchain protocol right of passage: we downloaded telegram and created our group, nCent Nation. Today, we crossed 10,000 users...
+                            </p>
+                            </a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="https://medium.com/tag/blockchain">Blockchain</a>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+
+    </section> <!-- s-content -->
+
+
+    <!-- s-extra
+    ================================================== -->
+    <section class="s-extra" id = "twitter">
+
+        <div class="row top">
+
+            <a class="twitter-timeline" href="https://twitter.com/KK_ncnt?ref_src=twsrc%5Etfw">Tweets by KK_ncnt</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div> <!-- end row -->
+
+
+    </section> <!-- end s-extra -->
+
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer" id = "footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+
+                <div class="col-two md-four mob-full s-footer__sitelinks">
+
+                    <h4>Quick Links</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="https://medium.com/@kk_ncnt">Medium</a></li>
+                        <li><a href="https://t.me/ncent">Telegram</a></li>
+                        <li><a href="https://twitter.com/kk_ncnt?lang=en">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/company/ncent">LinkedIn</a></li>
+                        <li><a href="https://ncent.io/">nCent Labs</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=KSQI9s4eJdM&t=2857s&list=PLZHDisQaTsDv1JhF4olo-CDKEGIIRF18w&index=2">Hack Summit Chat</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__sitelinks -->
+
+
+
+
+                <div class="col-five md-full end s-footer__subscribe">
+
+                    <h4>nCent Labs</h4>
+
+                    <p>nCent Labs is a Stanford University spinout blockchain research and development company. We are focused on building novel, protocol-level technologies that help people connect more efficiently. Our core belief is that you have the right to own the value of the networks you create. We invite you to connect with us and support our mission to build a fairer and freer decentralized internet!</p>
+
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+
+
+
+    </footer> <!-- end s-footer -->
+ 
+
+<body id="top">
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="medium/med.js"></script>
+    <script language="javascript" type="text/javascript">
+     window.load(function() {
+        $('#preloader').fadeOut();
+    });
+</script>
+
+
+</body>
+
+</html>

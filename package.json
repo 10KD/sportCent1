@@ -1,0 +1,27 @@
+{
+  "name": "ncent.github.io",
+  "version": "1.2.3",
+  "description": "nCent Labs Public Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "ncent-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncent/ncent.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncent/ncent.github.io/issues"
+  },
+  "homepage": "https://github.com/ncent/ncent.github.io#readme",
+  "dependencies": {
+    "aws-sdk": "^2.283.1",
+    "axios": "^0.18.0",
+    "es6-promise": "^4.2.4",
+    "eslint": "^5.1.0",
+    "ncent-sdk": "^1.0.0",
+    "pg": "^6.1.0"
+  }
+}

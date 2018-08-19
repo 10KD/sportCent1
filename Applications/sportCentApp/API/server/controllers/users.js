@@ -1,6 +1,6 @@
 const User = require('../models').User;
 const ncentSDK = require('../../../../../SDK/source/');
-const ncentSdkInstance = new ncentSDK();
+const ncentSdkInstance = new ncentSDK('http://localhost:8010/api');
 
 module.exports = {
     // create(req, res) {
@@ -10,14 +10,17 @@ module.exports = {
     create(req, res) {
         return User
             .create({
+                id: 20,
                 username: req.body.username,
             })
             .then(user => {
                 return new Promise(function (resolve, reject) {
-                    ncentSdkInstance.createWalletAddress();
+                    ncentSdkInstance.createWalletAddress('email@email.com');
                 })
-                    .then(res.status.send(200))
-                    .catch(error => console.log(error));
+                .then(res.status(200).send({
+                    message: "wallet created"
+                }))
+                .catch(error => console.log(error));
             })
             .catch(error => {
                 console.log(error);

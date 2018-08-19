@@ -20,6 +20,8 @@ class ncentSDK {
 
     createWalletAddress() {
         let KeyPair = StellarSdk.Keypair.random();
+        console.log(KeyPair);
+
         return KeyPair;
     };
     

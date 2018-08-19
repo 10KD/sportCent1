@@ -2,7 +2,6 @@ const express = require("express");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
 const app = express();
-require("./server/routes")(app);
 
 app.use(logger("dev"));
 
@@ -14,5 +13,10 @@ app.get("*", (req, res) =>
     message: "Welcome"
   })
 );
+require("./server/routes")(app);
+// app.post('/api/user', (req, res, next) => {
+//   console.log(req.body);
+//   res.status(200).send({ message: req.body });
+// });
 
 module.exports = app;
